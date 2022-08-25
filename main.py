@@ -4,6 +4,9 @@ from snake import Snake
 from food import Food
 from score_board import ScoreBoard
 
+# install required tk package
+system("pip3 install tk")
+
 # program window parameters
 screen = Screen()
 screen.setup(width=600, height=600)
