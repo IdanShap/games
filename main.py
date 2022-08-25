@@ -3,6 +3,7 @@ from turtle import Screen
 from snake import Snake
 from food import Food
 from score_board import ScoreBoard
+from os import system
 
 # install required tk package
 system("pip3 install tk")
